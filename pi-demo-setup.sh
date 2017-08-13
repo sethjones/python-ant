@@ -13,7 +13,7 @@ then
 	apt-get install -y python-setuptools
 
 	# Install Python-Ant
-	git clone https://github.com/sethjones/python-ant.git /usr/bin/python-ant
+	git clone -b 20170813 https://github.com/sethjones/python-ant.git /usr/bin/python-ant
 	cd /usr/bin/python-ant/
 	python /usr/bin/python-ant/setup.py install
 
