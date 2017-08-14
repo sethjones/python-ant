@@ -6,7 +6,6 @@ __maintainer__ = "Seth Jones"
 __email__ = "sajones4@oakland.edu"
 __status__ = "Prototype"
 
-
 # Python 2
 # ANT+ HRM Demo Script for Python-ANT.  Based on demo scripts provided with library.
 import sys
@@ -59,7 +58,8 @@ class HRM(event.EventCallback):
     def __exit__(self, type_, value, traceback):
         self.stop()
 
-# Use USB2 driver to prevent error.  There currently is an issue where nodes sometimes fails to start.
+# Use USB2 driver to prevent error found in USB1 driver.  
+# There currently is an issue where nodes sometimes fails to start.
     def _start_antnode(self):
         stick = driver.USB2Driver(self.serial)
         self.antnode = node.Node(stick)
