@@ -1,3 +1,12 @@
+__author__ = "Seth Jones"
+__license__ = "GPL"
+__version__ = "0.1"
+__date__ = "20170813"
+__maintainer__ = "Seth Jones"
+__email__ = "sajones4@oakland.edu"
+__status__ = "Prototype"
+
+
 # Python 2
 # ANT+ HRM Demo Script for Python-ANT.  Based on demo scripts provided with library.
 import sys
